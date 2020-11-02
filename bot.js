@@ -8,12 +8,8 @@ const tempChannel = require("discord.js-temporary-channel");
 
 client.on("ready", () =>{
     console.log(`Bot foi iniciado, com ${client.users.size} usuários, em ${client.channels.size} canais, em ${client.guilds.size} servidores.`);
-//     // client.user.setActivity("Loinha", {
-//     //   type: "STREAMING",
-//     //   url: "https://www.twitch.tv/loinha"
-//     // });
 
-    // client.user.setActivity("tieri sem beat", { type : "LISTENING"});
+    client.user.setActivity(`${client.guilds.size} servidores.`, { type : "LISTENING"});
     client.user.setStatus("online");
     
 });
@@ -65,10 +61,6 @@ client.on("message", async message =>{
       let botmessage = args.join(" ");
       message.delete(2000).catch().catch;
       message.channel.send(botmessage);
-    }
-
-    if (comando === "igor" || comando === "iguin"){
-      message.reply('Igor é um menino chato que eu tenho certeza que você não vai querer conhecer! Se puder mutar, ja muta, conselho de amigo')
     }
 
     if (comando === "hino" || comando === "hinotdc" || comando === "anthemtdc" || comando === "tdchino" || comando === "tdcanthem"){
