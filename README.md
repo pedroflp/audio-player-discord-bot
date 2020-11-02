@@ -5,7 +5,7 @@ A bot using **Nodejs & discord.js** that plays pre-loaded audio in discord voice
 ```
 npm install discord.js
 ```
-Replace your **bot token** in /config/config.json (you must create this path):
+Replace your **bot token** in config.json (you must create this file):
 ```
 {
   "prefix": "BOT_PREFIX",
