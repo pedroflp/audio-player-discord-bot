@@ -16,4 +16,4 @@ _____________________________
 
 ### Some commands was builded to my own discord server. You can change it if you want!
 
-Pedroflp | Envy#0001
+Pedroflp | Envy#0633
