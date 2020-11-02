@@ -1,0 +1,21 @@
+{
+  "name": "TDC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord-rpc": "^3.1.3",
+    "discord.js": "^11.6.4",
+    "discord.js-temporary-channel": "^1.0.0",
+    "node-gyp": "^7.1.0",
+    "rebuild": "^0.1.2",
+    "ytdl-core": "^0.29.7"
+  }
+}
